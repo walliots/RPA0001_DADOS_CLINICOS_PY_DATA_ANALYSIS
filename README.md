@@ -30,4 +30,19 @@ Datasets originais:
 - `feature/modelagem-mysql`
 - `feature/consultas-sql`
 
-> Documentação em construção — será complementada com estrutura de pastas, integrantes do grupo e instruções de execução.
+## Estrutura de pastas
+
+```
+├── datasets/
+│   ├── raw/            # dados originais, sem tratamento
+│   └── processed/      # dados após tratamento e join
+├── notebooks/          # .ipynb de exploração e desenvolvimento
+├── src/                # código Python reutilizável (.py)
+├── sql/
+│   ├── ddl/             # scripts de criação das tabelas (DER)
+│   └── consultas/       # as 10 consultas do questionário
+├── docs/                # diagrama entidade-relacionamento e materiais de apoio
+└── relatorio/           # PDF final com respostas, código SQL e resultados
+```
+
+> Documentação em construção — será complementada com integrantes do grupo e instruções de execução.
