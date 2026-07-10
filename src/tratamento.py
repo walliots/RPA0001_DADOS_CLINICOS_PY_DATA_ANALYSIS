@@ -1,5 +1,9 @@
 """Correção dos dados integrados: duplicatas e valores ausentes.
 
+Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
+Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
+Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
+
 Regras do enunciado:
 - Variáveis categóricas: preencher valores ausentes com a moda.
 - Variáveis numéricas: preencher valores ausentes com a mediana.

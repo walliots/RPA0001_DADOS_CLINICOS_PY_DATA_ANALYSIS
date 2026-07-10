@@ -1,5 +1,9 @@
 """Conexão e persistência das tabelas modeladas no MySQL.
 
+Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
+Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
+Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
+
 Credenciais lidas de variáveis de ambiente (ou de um arquivo .env na
 raiz do projeto, não versionado):
 

@@ -1,5 +1,9 @@
 """Normalização dos dados tratados no modelo do DER (tb_paciente + tabelas de domínio).
 
+Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
+Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
+Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
+
 Lê datasets/processed/dados_tratados.csv (dataset já integrado e sem
 duplicatas/nulos) e gera:
 - tb_estado (a partir de estado_regiao.csv, id_estado -> cod_estado)
