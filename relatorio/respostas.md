@@ -2,6 +2,8 @@
 
 Trabalho Final — Desenvolvimento e Projeto de Solução RPA I (PUC Minas — Prof. Leandro Lessa)
 
+**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza
+
 Todas as consultas foram executadas contra o MySQL 8, com os dados já tratados e
 modelados (`datasets/processed/dados_tratados.csv` → tabelas `tb_paciente` +
 tabelas de domínio, ver `sql/ddl/schema.sql`). Os arquivos `.sql` completos estão

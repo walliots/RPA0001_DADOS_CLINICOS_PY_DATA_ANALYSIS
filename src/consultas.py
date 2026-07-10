@@ -1,5 +1,9 @@
 """Executa as consultas SQL do questionário contra o MySQL e mostra os resultados.
 
+Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
+Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
+Samantha Araújo Fernandes de Souza
+
 Uso:
     python src/consultas.py
 """
