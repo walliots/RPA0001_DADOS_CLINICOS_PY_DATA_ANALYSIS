@@ -2,6 +2,8 @@
 
 Trabalho final da disciplina **Desenvolvimento e Projeto de Solução RPA I** (PUC Minas — Prof. Leandro Lessa).
 
+**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza
+
 ## Contexto
 
 O projeto simula uma automação de fluxo de dados clínicos de pacientes para um projeto de pesquisa de saúde. A partir de três conjuntos de dados fictícios, o objetivo é integrar, tratar, armazenar e consultar as informações dos pacientes.
@@ -115,5 +117,3 @@ Depois rode `python src/db.py` normalmente. Ao terminar, derrube o container com
 docker exec rpa-mysql-teste mysql -uroot -pteste123 dados_clinicos -e "SELECT COUNT(*) FROM tb_paciente;"
 ```
 (ou, se estiver usando seu próprio MySQL, rode a mesma consulta no Workbench/linha de comando). O esperado é 7999 pacientes carregados, sem erro de FK.
-
-> Documentação em construção — será complementada com integrantes do grupo.

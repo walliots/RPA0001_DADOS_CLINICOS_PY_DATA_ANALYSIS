@@ -1,5 +1,9 @@
 """Integração dos datasets brutos via inner join.
 
+Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
+Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
+Samantha Araújo Fernandes de Souza
+
 Junta dados_clinicos + dados_pacientes (por id_cliente) e o resultado
 + estado_regiao (por id_estado), conforme pede o enunciado do trabalho.
 
