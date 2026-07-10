@@ -2,7 +2,7 @@
 
 Trabalho Final — Desenvolvimento e Projeto de Solução RPA I (PUC Minas — Prof. Leandro Lessa)
 
-**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza
+**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
 
 Todas as consultas foram executadas contra o MySQL 8, com os dados já tratados e
 modelados (`datasets/processed/dados_tratados.csv` → tabelas `tb_paciente` +
