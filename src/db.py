@@ -35,14 +35,42 @@ ORDEM_CARGA = [
 ]
 
 
-def obter_engine():
+def ler_credenciais() -> dict:
     load_dotenv(ROOT_DIR / ".env")
-    host = os.environ.get("DB_HOST", "localhost")
-    port = os.environ.get("DB_PORT", "3306")
-    user = os.environ.get("DB_USER", "root")
-    password = os.environ.get("DB_PASSWORD", "")
-    nome_banco = os.environ.get("DB_NAME", "dados_clinicos")
-    url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{nome_banco}?charset=utf8mb4"
+    return {
+        "host": os.environ.get("DB_HOST", "localhost"),
+        "port": os.environ.get("DB_PORT", "3306"),
+        "user": os.environ.get("DB_USER", "root"),
+        "password": os.environ.get("DB_PASSWORD", ""),
+        "nome_banco": os.environ.get("DB_NAME", "dados_clinicos"),
+    }
+
+
+def garantir_banco(credenciais: dict) -> None:
+    """Cria o banco (schema) no servidor MySQL, caso ainda não exista."""
+    url_servidor = (
+        f"mysql+pymysql://{credenciais['user']}:{credenciais['password']}"
+        f"@{credenciais['host']}:{credenciais['port']}?charset=utf8mb4"
+    )
+    engine_servidor = create_engine(url_servidor)
+    with engine_servidor.begin() as conn:
+        conn.execute(
+            text(
+                f"CREATE DATABASE IF NOT EXISTS {credenciais['nome_banco']} "
+                "CHARACTER SET utf8mb4"
+            )
+        )
+    engine_servidor.dispose()
+
+
+def obter_engine():
+    credenciais = ler_credenciais()
+    garantir_banco(credenciais)
+    url = (
+        f"mysql+pymysql://{credenciais['user']}:{credenciais['password']}"
+        f"@{credenciais['host']}:{credenciais['port']}/{credenciais['nome_banco']}"
+        "?charset=utf8mb4"
+    )
     return create_engine(url)
 
 
