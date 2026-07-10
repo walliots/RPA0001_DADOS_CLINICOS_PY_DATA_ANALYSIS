@@ -2,7 +2,7 @@
 
 Trabalho Final - Desenvolvimento e Projeto de Solução RPA I (PUC Minas)
 Integrantes: Gabriel Brunet Dure, Guilherme Henrique Barros Assis,
-Samantha Araújo Fernandes de Souza
+Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
 
 Lê datasets/processed/dados_tratados.csv (dataset já integrado e sem
 duplicatas/nulos) e gera:

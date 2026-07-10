@@ -2,7 +2,7 @@
 
 Trabalho final da disciplina **Desenvolvimento e Projeto de Solução RPA I** (PUC Minas — Prof. Leandro Lessa).
 
-**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza
+**Integrantes:** Gabriel Brunet Dure, Guilherme Henrique Barros Assis, Samantha Araújo Fernandes de Souza, Walmir Pereira de Lima
 
 ## Contexto
 
